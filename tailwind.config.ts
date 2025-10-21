@@ -57,6 +57,20 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        gaming: {
+          blue: "hsl(var(--gaming-blue))",
+          "blue-light": "hsl(var(--gaming-blue-light))",
+          "blue-dark": "hsl(var(--gaming-blue-dark))",
+          cyan: "hsl(var(--gaming-cyan))",
+        },
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-hero": "var(--gradient-hero)",
+      },
+      boxShadow: {
+        glow: "var(--glow-primary)",
+        card: "var(--shadow-card)",
       },
       borderRadius: {
         lg: "var(--radius)",
