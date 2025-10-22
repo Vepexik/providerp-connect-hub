@@ -12,9 +12,9 @@ const Partners = () => {
     <section id="partners" className="py-24 bg-card/50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 space-y-4">
-          <h2 className="text-4xl md:text-5xl font-bold">Our Partners</h2>
+          <h2 className="text-4xl md:text-5xl font-bold">Naši Partneři</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            We collaborate with the best developers in the community to offer you the highest quality gaming experience
+            Spolupracujeme s nejlepšími vývojáři v komunitě, abychom vám nabídli tu nejvyšší kvalitu herního zážitku
           </p>
         </div>
 

@@ -9,26 +9,26 @@ const Navbar = () => {
           <div className="flex items-center gap-2">
             <Gamepad2 className="w-8 h-8 text-primary" />
             <span className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              Provide FiveM
+              Luminara FiveM
             </span>
           </div>
           
           <div className="hidden md:flex items-center gap-6">
             <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              About
+              O nás
             </a>
             <a href="#features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Features
+              Funkce
             </a>
             <a href="#team" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Team
+              Tým
             </a>
             <a href="#partners" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Partners
+              Partneři
             </a>
           </div>
 
-          <Button size="sm">Join Now</Button>
+          <Button size="sm">Připojit se</Button>
         </div>
       </div>
     </nav>

@@ -4,18 +4,18 @@ import { Shield, Server, Code } from "lucide-react";
 const features = [
   {
     icon: Shield,
-    title: "Authentic Roleplay",
-    description: "Immerse yourself in a realistic world with an elaborate system of roles and interactions.",
+    title: "Autentický Roleplay",
+    description: "Ponořte se do realistického světa s propracovaným systémem rolí a interakcí.",
   },
   {
     icon: Server,
-    title: "Stable Environment",
-    description: "We use the latest technologies to ensure a smooth gaming experience.",
+    title: "Stabilní Prostředí",
+    description: "Používáme nejnovější technologie pro zajištění plynulého herního zážitku.",
   },
   {
     icon: Code,
-    title: "Unique Scripts",
-    description: "Custom game mechanics and systems created specifically for our server.",
+    title: "Unikátní Skripty",
+    description: "Vlastní herní mechaniky a systémy vytvořené přímo pro náš server.",
   },
 ];
 
@@ -24,10 +24,10 @@ const Features = () => {
     <section id="features" className="py-24 relative">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 space-y-4">
-          <h2 className="text-4xl md:text-5xl font-bold">About Provide FiveM</h2>
+          <h2 className="text-4xl md:text-5xl font-bold">O Luminara FiveM</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            We are a community roleplay server focused on authentic gaming experience. We offer stable 
-            infrastructure, unique scripts, and a friendly community for all GTA V players.
+            Jsme komunitní roleplay server zaměřený na autentický herní zážitek. Nabízíme stabilní 
+            infrastrukturu, unikátní skripty a přátelskou komunitu pro všechny hráče GTA V.
           </p>
         </div>
 

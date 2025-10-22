@@ -5,25 +5,25 @@ import { Crown, Shield, Users } from "lucide-react";
 const teamMembers = [
   {
     name: "Admin 1",
-    role: "Server Owner",
+    role: "Majitel Serveru",
     icon: Crown,
     color: "text-yellow-500",
   },
   {
     name: "Admin 2",
-    role: "Head Admin",
+    role: "Hlavní Admin",
     icon: Shield,
     color: "text-red-500",
   },
   {
-    name: "Moderator 1",
-    role: "Moderator",
+    name: "Moderátor 1",
+    role: "Moderátor",
     icon: Users,
     color: "text-blue-500",
   },
   {
-    name: "Moderator 2",
-    role: "Moderator",
+    name: "Moderátor 2",
+    role: "Moderátor",
     icon: Users,
     color: "text-blue-500",
   },
@@ -34,9 +34,9 @@ const Team = () => {
     <section id="team" className="py-24 relative">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 space-y-4">
-          <h2 className="text-4xl md:text-5xl font-bold">Our Team</h2>
+          <h2 className="text-4xl md:text-5xl font-bold">Náš Tým</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Meet the dedicated team members who make this community possible
+            Poznejte oddané členy týmu, kteří tuto komunitu umožňují
           </p>
         </div>
 
